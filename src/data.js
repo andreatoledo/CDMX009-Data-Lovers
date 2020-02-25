@@ -11,3 +11,6 @@
 export const example = () => {
   return 'example';
 };
+ 
+:)
+importScripts jndk
