@@ -1,0 +1,19 @@
+.head{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), rgba(230, 86, 242, 0.56);
+}
+.fondo{
+position: absolute;
+width: 1234px;
+height: 784px;
+left: 48px;
+top: 241px;
+
+}
+head{
+    position: absolute;
+width: 134px;
+height: 784px;
+left: 55S8px;
+top: 241px;
+    
+}
