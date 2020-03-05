@@ -1,3 +1,5 @@
+
+
 // importamos la función `example`
 import { example } from "../src/data";
 

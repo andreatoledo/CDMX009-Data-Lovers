@@ -453,3 +453,76 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
 ***
+
+# Data Lovers
+
+## Índice
+
+* [1. Descripcion del proyecto](#1-preámbulo)
+* [2. Objetivo del proyecto](#2-resumen-del-proyecto)
+* [3. Protipo de baja fidelidad](#3-objetivos-de-aprendizaje)
+* [4. Prototipo de alta fidelidad](#4-consideraciones-generales)
+* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Parte adicional-opcional (extensión)](#6-parte-adicional-opcional-extensión)
+* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+
+***
+
+## 1. Descripción del proyecto.
+
+Esta página web promete ayudar a los nuevos fans de la Serie Rick and Morty a conocer mejor los personajes, sus dimensiones de origen, especies, tipos, estatus y género.
+
+## 2. Objetivo del proyecto.
+
+Crear un sitio web agradable y fácil de entender enfocado a nuevos fans de la serie Rick y Morty que les gustaría saber más de sus personajes favoritos.
+
+## 3. Prototipo de baja fidelidad.
+
+** Problemas encontrados **
+
+## 4. Testeos de Usabilidad. 
+** Primer testeo **
+
+Pudimos notar gracias al feedback de nuestros usuarios que en la página de los personajes nos hacía falta el botón de "regresar a la página principal" por lo que decidimos implementarlo, también mencionaron que el botón de filtrar debería de tener diferente nombre (visualizar por personajes) ya que si lo ven así pensarían que pueden filtar como ellos quieran, así como también nos dieron la opción de implementar el "regresar a ver todos los personajes", por lo que agregamos dicha opción. También dijeron que por la complejidad y tiempo del trabajo no deberiamos de darle prioridad a los datos curiosos porque está de más pero de igual manera lo implementaremos porque es un plus para nuestra pàgina web. 
+
+Nuestra segunda propuesta es:
+
+**Segundo testeo **
+En este segundo testeo nos dimos cuenta que los usuarios no sabían a que nos referiamos con el botón "visualizar", ya que tenían entendido que tenía la misma función que el botón de "filtrar", así que les explicamos que el botón de filtrar es para que tu puedas eligir si quieres ver únicamente mujeres, hombres, todos los Ricks y Mortys o todos, en cambio "visualizar" lo hace por especies, por ejemplo en humanos, humanoides, robots, aliens, cronenberg, poopybutthole y robots.
+
+## 5. Prototipo de alta fidelidad.
+
+## 6. Testeos de Usabilidad 
+
+## 7. Historias de usuarios. 
+
+Primer acercamiento a Rick and Morty
+
+El usuario entra a la página web.
+El usuario observa que en la parte superior de la pantalla esta un boton en forma de "?".
+La historia termina cuando el usuario da click o toca el botón para saber acerca de qué trata la pàgina.
+
+
+El usuario entra.
+La primer sección con la que interactua es la de "¿Sabías Que?"
+La sección ofrece curiosidades al usuario sobre la serie de Rick and Morty.
+El usuario puede elegir por medio de botones ver las curiosidades de la serie.
+La historia termina cuando el usuario accede al boton de "personajes"
+
+
+El usuario hace click en el botón "personajes"
+El usuario coloca su cursor sobre el personaje que le interesa.
+El usuario nota que más información es mostrada.
+La historia termina cuando el usuario decide filtrar u ordenar.
+
+
+El usuario selecciona entre las diferentes opciones de filtrado una de las categorías.
+La página muestra los personajes que cumplan con dicha condición.
+El usuario decide agregar un segundo filtro a los personajes mostrados, por la clasificación de especies.
+La historia termina cuando el usuario obtiene los personajes deseados.
+
+
+El usuario selecciona entre las diferentes opciones de ordenado.
+La página muestra los personajes que cumplan con dicha condición.
+
