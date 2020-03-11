@@ -37,33 +37,33 @@ const statisticsValue = (key, value, data) => {
 
 
 //sortData esta función : sort  ordena recibe tres parámetros. El primer parámetro, data, nos entrega los datos.
-//sortOrderindica si se quiere ordenar de manera ascendente o descendente.
+//sortOrder indica si se quiere ordenar de manera ascendente o descendente.
 const sortData = (data, sortOrder) =>{ 
   console.log(data);
   // console.log(sortBy);
   console.log(sortOrder);
- return data.sort((a, b) => {
-      let nameA = a.name.toUpperCase(); //El método toUpperCase() no cambia la cadena original.
-      let nameB = b.name.toUpperCase();
-      if (sortOrder === 'a-z'){
-          if (nameA < nameB){
-              return -1;
-          }else if(nameA > nameB){
-              return 1;
-          }else {
-              return 0;           
-          }
-      }else{
-          if (nameA > nameB){
-              return -1;
-          }else if(nameA < nameB){
-              return 1;
-          }else {
-              return 0;           
-          }
-      }
-  });
-  
+  return data.sort((a, b) => {
+    let nameA = a.name.toUpperCase(); //El método toUpperCase() no cambia la cadena original.
+    let nameB = b.name.toUpperCase();
+    if (sortOrder === 'a-z'){
+      if (nameA < nameB){
+        return -1;
+    }else if(nameA > nameB){
+        return 1;
+    }else {
+        return 0;           
+    }
+  }else{
+    if (nameA > nameB){
+        return -1;
+    }else if(nameA < nameB){
+        return 1;
+    }else {
+        return 0;           
+    }
+}
+});
+
 };
 
 
