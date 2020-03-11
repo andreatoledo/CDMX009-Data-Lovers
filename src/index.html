@@ -7,10 +7,11 @@
     <title>Data Lovers</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,600&display=swap" rel="stylesheet">
     <!--ICON-->
-    
+
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <!-- DATA -->
 
     <script src="./data/rickandmorty/rickandmorty.js"></script>
-    
+
 
     <!-- <section class="content"> -->
 
@@ -26,15 +27,20 @@
 
     <header>
         <nav class="navigation-bar">
-            <figure>
-                <a href=""><img src="https://i.pinimg.com/originals/f8/f3/c3/f8f3c3e177614d714df81f9294ee11ff.png" alt="logo" id="logo"></a>
-            </figure>
-            <div>
-                <ul>
-                    <li><a target="_blank" href="https://rickandmorty.fandom.com/">Sobre nosotros</a></li>
-                    <!-- <li><a href=>Tercera temporada</a></li> -->
-                </ul>
-            </div>
+
+            <a href=""><img src="https://i.pinimg.com/originals/f8/f3/c3/f8f3c3e177614d714df81f9294ee11ff.png"
+                    alt="logo" id="logo"></a>
+
+
+            <img src="https://occ-0-1818-37.1.nflxso.net/dnm/api/v6/TsSRXvDuraoJ7apdkH6tsHhf-ZQ/AAAABWvcCE9czzpucMfdp5zcd1DoEYp1kvKmqA9pFjGGS6fjz5NbyXAtOpsgI-r52MIjv_HmyR6FP_YoMpgdilhG4bAqL7UazR0NdLn-.png?r=a6e"
+                alt="logo" id="xd23"> </div>
+
+
+
+            <a target="_blank" href="nosotros.html" id="nosotros">Sobre nosotros</a>
+            <!-- <li><a href=>Tercera temporada</a></li> -->
+
+
         </nav>
     </header>
 
@@ -52,15 +58,17 @@
                     <!-- FACTS -->
                     <div id="facts">
                         <h2>Datos curiosos que sólo los verdaderos fans de Rick and Morty conocen</h2>
-                        
+
                         <p class="carousel__p" id="curiosity"></p>
-                        <marquee direction="left" onmouseout="start()" onmouseover="stop()" scrollamount="10" scrolldelay="200">
-                            <img src="http://notinerd.com/wp-content/uploads/2017/10/2rick.jpg" alt="">
-                            <img src="http://notinerd.com/wp-content/uploads/2017/10/3rick.jpg" alt="">
-                            <img src="http://notinerd.com/wp-content/uploads/2017/10/7rick.jpg" alt="">
-                            <img src="http://notinerd.com/wp-content/uploads/2017/10/10rick.jpeg" alt="">
-                            <img src="http://notinerd.com/wp-content/uploads/2017/10/13rick.jpg" alt="">
-                        
+                        <marquee direction="left" onmouseout="start()" onmouseover="stop()" scrollamount="10"
+                            scrolldelay="200">
+
+                            <img src="http://notinerd.com/wp-content/uploads/2017/10/2rick.jpg" alt="" height="100">
+                            <img src="http://notinerd.com/wp-content/uploads/2017/10/3rick.jpg" alt="" height="100">
+                            <img src="http://notinerd.com/wp-content/uploads/2017/10/7rick.jpg" alt="" height="100">
+                            <img src="http://notinerd.com/wp-content/uploads/2017/10/10rick.jpeg" alt="" height="100">
+                            <img src="http://notinerd.com/wp-content/uploads/2017/10/13rick.jpg" alt="" height="100">
+
                         </marquee>
                     </div>
                 </div>
@@ -90,37 +98,49 @@
                             <option value="status.Dead">Muerto</option>
                         </select>
                         <select name="order" id="order">
-                        <option value="order" class="order"><span>Ordenar</span></option>
-                        <option value="a-z">de la A a la Z</option>
-                        <option value="z-a">de la Z a la A</option>
-                    </select>
+                            <option value="order" class="order"><span>Ordenar</span></option>
+                            <option value="a-z">de la A a la Z</option>
+                            <option value="z-a">de la Z a la A</option>
+                        </select>
                     </div>
                     <div class="specie">
                         <select name="species" id="species">
-                                <option value="species">Especies</option>
-                                <option value="species.Human">Humanos</option>
-                                <option value="species.Humanoid">Humanoide</option>
-                                <option value="species.Vampire">Vampiro</option>
-                                <option value="species.Alien">Alien</option>
-                                <option value="species.unknown">Desconocida</option>
-                                <option value="species.Cronenberg">Cronenberg</option>
-                                <option value="species.Poopybutthole">Poopybutthole</option>
-                                <option value="species.Robot">Robot</option>
-                                <option value="species.Disease">Disease</option>
-                                <option value="species.Animal">Animal</option>
-                            </select>
+                            <option value="species">Especies</option>
+                            <option value="species.Human">Humanos</option>
+                            <option value="species.Humanoid">Humanoide</option>
+                            <option value="species.Vampire">Vampiro</option>
+                            <option value="species.Alien">Alien</option>
+                            <option value="species.unknown">Desconocida</option>
+                            <option value="species.Cronenberg">Cronenberg</option>
+                            <option value="species.Poopybutthole">Poopybutthole</option>
+                            <option value="species.Robot">Robot</option>
+                            <option value="species.Disease">Disease</option>
+                            <option value="species.Animal">Animal</option>
+                            </br>
+
+                        </select>
                     </div>
                 </div>
+
+                </br>
             </div>
-            <div class="counter">
-                <h3>Se encontraron <span id="counter"></span> personajes.</h3>
-            </div>
-            <section class="all-data" id="all-data">
-            </section>
-        </section>
-    </main>
+            </br>
+            
+             
+         
+   
+    </br>
+    <div class="counter">
+        <h3>Se encontraron <span id="counter"></span> personajes.</h3>
+    </div>
+    <section class="all-data" id="all-data">
+
+    </section>
+</section>
+</main>
     <footer>
-        <h4>Todos los derechos reservados &copy;</h4></h4>
+        <h4>Todos los derechos reservados &copy;</h4>
+        </h4>
     </footer>
 
     <script src="data.js"></script>

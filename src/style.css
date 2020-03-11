@@ -23,7 +23,7 @@ html {
 body {
     justify-content: center;
     margin: 0px;
-    background-image: url(https://3.bp.blogspot.com/-f04PJiBSWkI/XXVCTdQiVqI/AAAAAAAANAk/L0foW1HYviUCrA2Ok0UsABim2RLPuntNQCLcBGAs/w914-h514-p-k-no-nu/rick-and-morty-sky-stars-uhdpaper.com-4K-5.118-wp.thumbnail.jpg);
+    background-image: url(https://image.freepik.com/vector-gratis/cielo-o-cielo-naturaleza-atardecer-o-amanecer_107791-583.jpg);
     background-size: cover;
 }
 
@@ -37,7 +37,7 @@ main {
     box-shadow: 0px 53px 16px 12px rgba(155, 210, 242, 0.177);
 }
 
-img {
+.img {
     width: 100%;
 }
 
@@ -52,10 +52,13 @@ footer {
 header {
     width: 100%;
     height: 25%;
+<<<<<<< HEAD
     background: rgba(37, 104, 158, 0.973);
+=======
+    background-color:#c7b8e7;
+>>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
     display: flex;
 }
-
 
 /* CLASES */
 
@@ -70,15 +73,15 @@ header {
     /* background-color: aqua; */
 }
 
-.navigation-bar li {
-    list-style: none;
-    justify-content: flex-end;
-    text-align: center;
+#xd23 {
+    height:150px;
+    width:400px;
 }
 
 #logo {
     width: 4rem;
     justify-content: center;
+    
 }
 
 
@@ -111,7 +114,7 @@ header {
     text-decoration: none;
 }
 
-.navigation-bar li a {
+#nosotros {
     display: flex;
     color: white;
     font-size: 1.5rem;
@@ -120,6 +123,14 @@ header {
     border-radius: 1rem;
 }
 
+.navigation-bar img{
+    
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
+     
+
 .carousel i {
     vertical-align: center;
 }
@@ -127,12 +138,12 @@ header {
 .button,
 #filter,
 #order,
-.navigation-bar li a,
+#nosotros,
 #species {
     border-color: #00B3CC;
     cursor: pointer;
     color: white;
-    background-color: rgb(0, 204, 194);
+    background-color: #F4908A;
     -webkit-box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
     -moz-box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
     box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
@@ -142,7 +153,6 @@ header {
 .button:hover,
 #filter:hover,
 #order:hover,
-.navigation-bar li a:hover,
 #species:hover {
     background-color: #9BF2BA;
     border-color: rgb(133, 208, 150);
@@ -180,9 +190,16 @@ header {
 }
 
 .slide {
+<<<<<<< HEAD
     width: 100%;
     
     height: 500%;
+=======
+    width: 80%;
+    height: 120%;
+    
+    
+>>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
     transform-style: preserve-3d;
     /* background-size: cover; */
 }
@@ -416,7 +433,11 @@ option {
     header {
         width: 100%;
         height: auto;
+<<<<<<< HEAD
        background-color: rgba(0, 0, 0, 0.85);
+=======
+        /*background-color: rgba(0, 0, 0, 0.85);*/
+>>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
         display: flex;
     }
     main {
@@ -458,10 +479,15 @@ option {
     }
     .flip-card {
         width: 30%;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
     }
     .flip-card-front {
         height: auto;
+        background-color: #9fcaee;
     }
     .flip-card-front,
     .flip-card-back {
@@ -497,3 +523,102 @@ option {
     }
 }
 
+.imagen1{
+    width:230px;
+    height:230px;
+}
+.botoness{
+    display:flex;
+    height: 100vh;
+    align-items: flex-end;
+
+}
+
+
+
+.botoness a:nth-child(2){
+    align-self: flex-start;
+    
+}
+
+
+
+.botoness a:nth-child(4){
+    align-self: flex-start;
+}
+
+
+ 
+ .a{
+     
+     align-self: flex-start
+ }
+ 
+ .boton1{
+ text-align: center;
+ }
+  .boton1 a:link, a:visited
+  {
+     background-color:#e714a1;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     padding-right: 20px;
+     border-radius: 15px;
+     border: 3px double #6b0438;
+     
+     
+ 
+    
+   }
+
+   a:hover, a:active {
+    background-color:purple;
+  }
+
+  .nosot{
+    
+        display:flex;
+        height: 100vh;
+        align-items: flex-end;
+        text-align: ;
+
+        
+    }
+
+    .titulo a:link, a:visited
+    {
+       background-color:#e714a1;
+       color: white;
+       padding: 14px 25px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       padding-right: 20px;
+       border-radius: 15px;
+       border: 3px double #6b0438;
+    }
+
+   
+       
+    .informacion1{
+        text-align: center;
+    }
+
+    #texto{
+        text-align: justify;
+        border-style: solid;
+        border-width: 5px;
+        font-size: 10px;
+        color: darkmagenta;
+        font-weight: bolder;
+        background-size: contain;
+        
+    }
+
+    #curiosity{
+        
+        
+    }
