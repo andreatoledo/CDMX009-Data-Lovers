@@ -30,11 +30,8 @@ body {
 main {
     width: 100vw;
     height: auto;
-    padding-bottom: 2rem;
-    background-color: rgba(204, 204, 204, 1);
-    -webkit-box-shadow: 0px 53px 16px 12px rgba(171, 155, 242, 0.177);
-    -moz-box-shadow: 0px 53px 16px 12px rgba(155, 207, 242, 0.177);
-    box-shadow: 0px 53px 16px 12px rgba(155, 210, 242, 0.177);
+    padding-bottom: 10rem;
+   
 }
 
 .img {
@@ -52,11 +49,7 @@ footer {
 header {
     width: 100%;
     height: 25%;
-<<<<<<< HEAD
-    background: rgba(37, 104, 158, 0.973);
-=======
     background-color:#c7b8e7;
->>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
     display: flex;
 }
 
@@ -144,10 +137,7 @@ header {
     cursor: pointer;
     color: white;
     background-color: #F4908A;
-    -webkit-box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
-    -moz-box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
-    box-shadow: -9px 10px 16px -7px rgba(82, 73, 82, 0.68);
-    transition: 1ms;
+ 
 }
 
 .button:hover,
@@ -190,18 +180,10 @@ header {
 }
 
 .slide {
-<<<<<<< HEAD
-    width: 100%;
-    
-    height: 500%;
-=======
     width: 80%;
     height: 120%;
     
-    
->>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
-    transform-style: preserve-3d;
-    /* background-size: cover; */
+  
 }
 
 #facts {
@@ -245,12 +227,12 @@ header {
 .all-data {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Para alinear las tarjetas verticalmente*/
     justify-content: space-around;
     margin: 0.8rem 2rem;
     width: 90vw;
     height: 60vh;
-    overflow: scroll;
+    
     /* align-items: space-between;
     justify-items: space-between; */
 }
@@ -263,17 +245,17 @@ header {
 }
 
 .all-data::-webkit-scrollbar-thumb {
-    background: white;
+    background: pink;
     border-radius: 1rem;
 }
 
 .all-data::-webkit-scrollbar-thumb:hover {
     background: #9BF2BA;
-    border-radius: 1rem;
+    border-radius: 5rem;
     cursor: pointer;
 }
 
-
+/*fondo de la tarjeta (adelante)*/
  .data-card {
     width: 45%; 
     margin: auto;
@@ -282,27 +264,18 @@ header {
     justify-content: space-between; 
 }
 
-.flip-card {
-    width: 45%;
-    align-items: center;
-    border: #00B3CC 0.5rem;
-    background-color: transparent;
-    perspective: 1000px;
-}
 
 .flip-card-inner {
-    width: 100%;
-    text-align: center;
-    vertical-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
+
+    transition: transform 0.6s; /* Para que le de estilo al giro en la tarjeta*/
+    transform-style: preserve-3d; /* Especifica que los elementos hijos conservarán su posición 3D*/
 }
 
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /*Rotar al darle click*/
 }
 
-.flip-card-front,
+.flip-card-front,  /*estilos para darle borde a la tarjeta, centrar la imagen, el titulo*/
 .flip-card-back {
     backface-visibility: hidden;
     vertical-align: center;
@@ -319,11 +292,11 @@ header {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-.flip-card-front {
+.flip-card-front {  
     position: absolute;
 }
 
-.flip-card-back {
+.flip-card-back { /*Para que aparezca la información atrás*/
     background-color: #EBEBEB;
     color: black;
     transform: rotateY(180deg);
@@ -433,11 +406,7 @@ option {
     header {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
-       background-color: rgba(0, 0, 0, 0.85);
-=======
         /*background-color: rgba(0, 0, 0, 0.85);*/
->>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
         display: flex;
     }
     main {
@@ -479,11 +448,7 @@ option {
     }
     .flip-card {
         width: 30%;
-<<<<<<< HEAD
-
-=======
         
->>>>>>> cf7596ebf6d191cc65c6f461c74a3b129dfb0415
     }
     .flip-card-front {
         height: auto;
@@ -524,8 +489,8 @@ option {
 }
 
 .imagen1{
-    width:230px;
-    height:230px;
+    width:300px;
+    height:300px;
 }
 .botoness{
     display:flex;
@@ -601,11 +566,7 @@ option {
        border: 3px double #6b0438;
     }
 
-   
-       
-    .informacion1{
-        text-align: center;
-    }
+
 
     #texto{
         text-align: justify;
@@ -618,7 +579,4 @@ option {
         
     }
 
-    #curiosity{
-        
-        
-    }
+  

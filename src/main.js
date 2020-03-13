@@ -125,14 +125,15 @@ const showData = () => {
 };
 
 showData();
-
-//Working with filter button
+//La función split() permite dividir una cadena de caracteres (string) en varios bloques y crear un array con estos, en función de un elemento indicador del split.
+//Trabajando con el botón de filtro
 const getFilterValue = event => {
     const filterValue = event.target.value; //Se guarda el valor de los option del html
     if (filterValue === 'all') {
         newData = data;
         showData();
     } else {
+        //Funciones para que me salga el filtro ej. "mujer"
         const splitFilterValue = filterValue.split('.'); //Toma el filter value y lo divide en un array por el punto. El split detecta el . del nombre del value.
         const key = splitFilterValue[0]; //aqui se guarda la propiedad ej. "name"
         const value = splitFilterValue[1]; //aqui se guarda el valor ej."Rick"
@@ -145,14 +146,15 @@ const getFilterValue = event => {
         allData.innerHTML = cards.join(''); //Al cumplirse con la condición, ejecutar el siguiente código.   
     }
     //imprime el resultado dentro de la sección allData. .join concatena los elementos de un array.
+    //.map | crea una nueva matriz con el resultado de ejecutar la función proporcionada a cada elemento de la matriz
 };
 
 const getOrdervalue = event => {
     const orderValue = event.target.value;
     const sort = newData !== '' ? newData : data;
     const result = window.sortData(sort, orderValue);
-    const card = result.map(element => templateStringForCards(element));
-    allData.innerHTML = card.join('');
+    const card = result.map(element => templateStringForCards(element));// result = array. .map itera items
+    allData.innerHTML = card.join('');//Al cumplirse con la condición, ejecutar el siguiente código.   
 };
 
 const getSpeciesValue = event => {
