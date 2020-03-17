@@ -1,3 +1,138 @@
+
+
+### Objetivos de aprendizaje
+
+El objetivo principal de este proyecto es que, entendiendo las necesidades de
+tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
+visualizar y manipular data.
+
+Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
+proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
+y de equipo.
+
+### UX
+
+- [✅] Diseñar la aplicación pensando y entendiendo al usuario.
+- [✅] Crear prototipos para obtener _feedback_ e iterar.
+- [✅] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [🤔] Planear y ejecutar _tests_ de usabilidad.
+
+### HTML y CSS
+
+- [✅] Entender y reconocer por qué es importante el HTML semántico.
+- [✅] Identificar y entender tipos de selectores en CSS.
+- [🤔] Entender como funciona `flexbox` en CSS.
+- [✅] Construir tu aplicación respetando el diseño planeado (maquetación).
+
+### DOM
+
+- [✅] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
+- [✅] Manejar eventos del DOM. (addEventListener)
+- [✅] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+
+### Javascript
+
+- [✅] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [✅] Manipular objects (key | value).
+- [✅] Entender el uso de condicionales (`if-else` | `switch`).
+- [🤔] Entender el uso de bucles (`for` | `forEach`).
+- [🤔] Entender la diferencia entre expression y statements.
+- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [🤔] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [✅] Utilizar ES Modules (`import` | `export`).
+
+### Pruebas Unitarias (_testing_)
+- [🤔] Testear funciones (funciones puras).
+
+### Git y GitHub
+- [✅] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+- [✅] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
+- [✅] Colaborar en Github (pull requests).
+
+### Buenas prácticas de desarrollo
+- [✅] Organizar y dividir el código en módulos (Modularización).
+- [🤔] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [🤔] Utilizar linter para seguir buenas prácticas (ESLINT).
+
+
+
+## 1. Descripción del proyecto.
+
+Esta página web promete ayudar a los nuevos fans de la Serie Rick and Morty a conocer mejor los personajes, sus dimensiones de origen, especies, tipos, estatus y género.
+
+## 2. Objetivo del proyecto.
+
+Crear un sitio web agradable y fácil de entender enfocado a nuevos fans de la serie Rick y Morty que les gustaría saber más sobre los personajes de la serie.
+
+## 3. Prototipo de baja fidelidad.
+
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/pri.jpg) 
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/seg.jpg) 
+
+
+## 4. Testeos de Usabilidad. 
+** Primer testeo **
+
+Pudimos notar gracias al feedback de nuestros usuarios que en la página de los personajes nos hacía falta el botón de "regresar a la página principal" por lo que decidimos implementarlo, también mencionaron que el botón de filtrar debería de tener diferente nombre (visualizar por personajes) ya que si lo ven así pensarían que pueden filtar como ellos quieran, así como también nos dieron la opción de implementar el "regresar a ver todos los personajes", por lo que agregamos dicha opción. También dijeron que por la complejidad y tiempo del trabajo no deberiamos de darle prioridad a los datos curiosos porque está de más pero de igual manera lo implementaremos porque es un plus para nuestra pàgina web. 
+
+Nuestra segunda propuesta es:
+
+**Segundo testeo **
+
+En este segundo testeo nos dimos cuenta que los usuarios no sabían a que nos referiamos con el botón "visualizar", ya que tenían entendido que tenía la misma función que el botón de "filtrar", así que les explicamos que el botón de filtrar es para que tu puedas eligir si quieres ver únicamente mujeres, hombres, todos los Ricks y Mortys o todos, en cambio "visualizar" lo hace por especies, por ejemplo en humanos, humanoides, robots, aliens, cronenberg, poopybutthole y robots.
+
+## 5. Prototipo de alta fidelidad.
+
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/1.jpeg) 
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/2.jpeg) 
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/3.jpeg) 
+![alt text](https://raw.githubusercontent.com/andreatoledo/CDMX009-Data-Lovers/master/imagenes/4.png) 
+
+## 6. Testeos de Usabilidad 
+
+Pudimos notar gracias al feedback realizado por nuestras compañeras, que los colores e imagenes que utilizamos en el prototipo no se veían tan bien. Así que optamos por cambiarle eso en nuestro producto final.
+
+## 7. Historias de usuarios. 
+
+Primer acercamiento a Rick and Morty
+  
+** Yo como usuario me interesaria ver información acerca de los personas más importantes de la serie.
+
+El usuario entra a la página web.
+El usuario observa que en la parte superior de la pantalla hay un boton que dice "sobre nosotros".
+La historia termina cuando el usuario da click en el botón para saber información más relevante acerca de los personajes principales.
+
+** Yo como usuario, me acaban de contar que la serie de Rick and Morty está súper cool, así que decido entrar a una página web para conocer datos curiosos
+sobre la serie.
+
+El usuario entra.
+La primer sección con la que interactua es la de "¿Sabías Que?"
+La sección ofrece curiosidades al usuario sobre la serie de Rick and Morty.
+El usuario puede elegir por medio de botones ver las curiosidades de la serie.
+La historia termina cuando el usuario accede al boton de "personajes"
+
+** Yo como usuario, ya que haya terminado de ver las curiosidades. Ahora me interesaría saber información de todoooos los personajes de la serie.
+
+El usuario hace click en el botón "personajes"
+El usuario coloca su cursor sobre el personaje que le interesa.
+El usuario nota que más información es mostrada.
+La historia termina cuando el usuario decide filtrar u ordenar.
+
+** Yo como usuario, me gustaría poder filtrar por género por ejemplo (hombres, mujeres, vivos, muertos, todos los Ricks y Mortys)
+
+El usuario selecciona entre las diferentes opciones de filtrado, elige la categoria de "mujeres".
+La página muestra los personajes que cumplan con dicha condición.
+La historia termina cuando el usuario haya visto únicamente a las mujeres
+
+** Yo como usuario me gustaria poder ordenar a los personajes por orden alfabetico y por especies.
+
+El usuario decide agregar un segundo filtro a los personajes mostrados, por la clasificación de especies.
+La historia termina cuando el usuario obtiene los personajes deseados.
+El usuario selecciona entre las diferentes opciones de ordenado.
+La página muestra los personajes que cumplan con dicha condición.
+
+************************************************************************************************************************
+
 # Data Lovers
 
 ## Índice :)
@@ -75,61 +210,6 @@ posible para ayudarle a satisfacer sus necesidades.
 * [Pacientes en EEUU](src/data/patient/patient.json).
   Este set nos proporciona una lista de pacientes de EEUU. Puedes revisar la
   documentación de su API en este [link](https://r2.smarthealthit.org/Patient).
-
-## 3. Objetivos de aprendizaje
-
-El objetivo principal de este proyecto es que, entendiendo las necesidades de
-tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
-visualizar y manipular data.
-
-Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
-proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
-y de equipo.
-
-### UX
-
-- [✅] Diseñar la aplicación pensando y entendiendo al usuario.
-- [✅] Crear prototipos para obtener _feedback_ e iterar.
-- [✅] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar _tests_ de usabilidad.
-
-### HTML y CSS
-
-- [✅] Entender y reconocer por qué es importante el HTML semántico.
-- [✅] Identificar y entender tipos de selectores en CSS.
-- [✅] Entender como funciona `flexbox` en CSS.
-- [✅] Construir tu aplicación respetando el diseño planeado (maquetación).
-
-### DOM
-
-- [✅] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
-- [✅] Manejar eventos del DOM. (addEventListener)
-- [✅] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
-
-### Javascript
-
-- [✅] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [✅] Manipular objects (key | value).
-- [✅] Entender el uso de condicionales (`if-else` | `switch`).
-- [✅] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (`import` | `export`).
-
-### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
-
-### Git y GitHub
-- [✅] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [✅] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-- [✅] Colaborar en Github (pull requests).
-
-### Buenas prácticas de desarrollo
-- [✅] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
-
 ## 4. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
@@ -468,61 +548,3 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 
 ***
-
-## 1. Descripción del proyecto.
-
-Esta página web promete ayudar a los nuevos fans de la Serie Rick and Morty a conocer mejor los personajes, sus dimensiones de origen, especies, tipos, estatus y género.
-
-## 2. Objetivo del proyecto.
-
-Crear un sitio web agradable y fácil de entender enfocado a nuevos fans de la serie Rick y Morty que les gustaría saber más de sus personajes favoritos.
-
-## 3. Prototipo de baja fidelidad.
-
-** Problemas encontrados **
-
-## 4. Testeos de Usabilidad. 
-** Primer testeo **
-
-Pudimos notar gracias al feedback de nuestros usuarios que en la página de los personajes nos hacía falta el botón de "regresar a la página principal" por lo que decidimos implementarlo, también mencionaron que el botón de filtrar debería de tener diferente nombre (visualizar por personajes) ya que si lo ven así pensarían que pueden filtar como ellos quieran, así como también nos dieron la opción de implementar el "regresar a ver todos los personajes", por lo que agregamos dicha opción. También dijeron que por la complejidad y tiempo del trabajo no deberiamos de darle prioridad a los datos curiosos porque está de más pero de igual manera lo implementaremos porque es un plus para nuestra pàgina web. 
-
-Nuestra segunda propuesta es:
-
-**Segundo testeo **
-En este segundo testeo nos dimos cuenta que los usuarios no sabían a que nos referiamos con el botón "visualizar", ya que tenían entendido que tenía la misma función que el botón de "filtrar", así que les explicamos que el botón de filtrar es para que tu puedas eligir si quieres ver únicamente mujeres, hombres, todos los Ricks y Mortys o todos, en cambio "visualizar" lo hace por especies, por ejemplo en humanos, humanoides, robots, aliens, cronenberg, poopybutthole y robots.
-
-## 5. Prototipo de alta fidelidad.
-
-## 6. Testeos de Usabilidad 
-
-## 7. Historias de usuarios. 
-
-Primer acercamiento a Rick and Morty
-
-El usuario entra a la página web.
-El usuario observa que en la parte superior de la pantalla esta un boton en forma de "?".
-La historia termina cuando el usuario da click o toca el botón para saber acerca de qué trata la pàgina.
-
-
-El usuario entra.
-La primer sección con la que interactua es la de "¿Sabías Que?"
-La sección ofrece curiosidades al usuario sobre la serie de Rick and Morty.
-El usuario puede elegir por medio de botones ver las curiosidades de la serie.
-La historia termina cuando el usuario accede al boton de "personajes"
-
-
-El usuario hace click en el botón "personajes"
-El usuario coloca su cursor sobre el personaje que le interesa.
-El usuario nota que más información es mostrada.
-La historia termina cuando el usuario decide filtrar u ordenar.
-
-
-El usuario selecciona entre las diferentes opciones de filtrado una de las categorías.
-La página muestra los personajes que cumplan con dicha condición.
-El usuario decide agregar un segundo filtro a los personajes mostrados, por la clasificación de especies.
-La historia termina cuando el usuario obtiene los personajes deseados.
-
-
-El usuario selecciona entre las diferentes opciones de ordenado.
-La página muestra los personajes que cumplan con dicha condición.
-
